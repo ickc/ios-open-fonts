@@ -34,3 +34,11 @@ Open these links in Mobile Safari:
 - [Charter](mobileconfig/charter.mobileconfig)
 - [ET-Books](mobileconfig/et-book.mobileconfig)
 
+# Tests #
+
+Open these links to test if the fonts are loading properly:
+
+- [Latin Modern](tests/test-lmodern.html)
+- [Computer Modern Unicode](tests/test-cmunicode.html)
+- [Charter](tests/test-charter.html)
+- [ET-Books](tests/test-etbembo.html)
