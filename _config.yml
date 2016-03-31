@@ -4,7 +4,7 @@ description: "Installing Open Fonts on any iOS devices"
 domain: ickc.github.io #If you want to force HTTPS, put down the domain without the http: e.g. example.com
 url: https://ickc.github.io #place url
 baseurl: /open-fonts-for-ios #place folder name if site is served in subfolder
-permalink: /:title/
+permalink: /:title.html
 author: #For jekyll-feed
   name: "Kolen"
   email: christian.kolen@gmail.com
