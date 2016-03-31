@@ -19,7 +19,7 @@ defaults:
     values:
       layout: "default"
 
-exclude: [.git, .gitignore, .sass-cache, README.md, Gemfile, Gemfile.lock]
+exclude: [.git, .gitignore, .sass-cache, Gemfile, Gemfile.lock]
 
 gems:
   - jekyll-sitemap
