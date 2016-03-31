@@ -29,10 +29,11 @@ The following fonts are downloaded and put in `/fonts/`:
 
 Open these links in Mobile Safari:
 
-- [Latin Modern](mobileconfig/latin-modern.mobileconfig)
-- [Computer Modern Unicode](mobileconfig/cm-unicode.mobileconfig)
+- [Latin Modern (full)](mobileconfig/lmodern-full.mobileconfig)
+- [Latin Modern (10pt only)](mobileconfig/lmodern10.mobileconfig)
+- [Computer Modern Unicode](mobileconfig/cmunicode.mobileconfig)
 - [Charter](mobileconfig/charter.mobileconfig)
-- [ET-Books](mobileconfig/et-book.mobileconfig)
+- [ET-Books](mobileconfig/etbembo.mobileconfig)
 
 # Tests #
 
