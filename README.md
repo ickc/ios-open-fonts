@@ -19,21 +19,20 @@ The following fonts are downloaded and put in `/fonts/`:
 - [Computer Modern Unicode fonts](http://cm-unicode.sourceforge.net/download.html)
 - [Charter --- Butterick’s Practical Typography](http://practicaltypography.com/charter.html)  
 - [ickc/et-book: A webfont of the typeface used in Edward Tufte’s books.](https://github.com/ickc/et-book)  
-
-## Todo ##
-
-- Fira Sans
-- Source Code Pro
+- [mozilla/Fira: Mozilla's new typeface, used in Firefox OS](https://github.com/mozilla/Fira)
+- [adobe-fonts/source-code-pro: Monospaced font family for user interface and coding environments](https://github.com/adobe-fonts/source-code-pro)
 
 # Mobile Config #
 
 Open these links in Mobile Safari:
 
-- [Latin Modern (full)](mobileconfig/lmodern-full.mobileconfig)
-- [Latin Modern (10pt only)](mobileconfig/lmodern10.mobileconfig)
+- [Latin Modern (full)](mobileconfig/lmodern-full.mobileconfig) [^ Best for Word/Pages/etc on iOS when you want to choose the exact font variants. Cause problems when used in HTML in iOS, probably because of all the different font sizes.]
+- [Latin Modern (10pt only)](mobileconfig/lmodern10.mobileconfig) [^ Best for HTML on iOS. Single font size variants only]
 - [Computer Modern Unicode](mobileconfig/cmunicode.mobileconfig)
 - [Charter](mobileconfig/charter.mobileconfig)
 - [ET-Books](mobileconfig/etbembo.mobileconfig)
+- [Fira Sans](mobileconfig/FiraSans.mobileconfig)
+- [Source Code Pro](mobileconfig/SourceCodePro.mobileconfig)
 
 # Tests #
 
@@ -43,3 +42,5 @@ Open these links to test if the fonts are loading properly:
 - [Computer Modern Unicode](tests/test-cmunicode.html)
 - [Charter](tests/test-charter.html)
 - [ET-Books](tests/test-etbembo.html)
+- [Fira Sans](tests/test-firasans.html)
+- [Source Code Pro](tests/test-sourcecodepro.html)
