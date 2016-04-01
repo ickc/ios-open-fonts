@@ -32,12 +32,18 @@ Open these links in Mobile Safari:
 - [Computer Modern Unicode](mobileconfig/cmunicode.mobileconfig)
 - [Charter](mobileconfig/charter.mobileconfig)
 - [ET-Books](mobileconfig/etbembo.mobileconfig)
-- [Fira Sans](mobileconfig/FiraSans.mobileconfig)
+- Fira Sans
+	- [Fira Sans (full)](mobileconfig/FiraSans-full.mobileconfig) [^FiraSans-full]
+	- [Fira Sans (without "FiraSansCondensed" variants)](mobileconfig/FiraSans.mobileconfig) [^FiraSans]
 - [Source Code Pro](mobileconfig/SourceCodePro.mobileconfig)
 
 [^lmodern-full]: Best for Word/Pages/etc on iOS when you want to choose the exact font variants. Cause problems when used in HTML in iOS, probably because of all the different font sizes.
 
 [^lmodern10]: Best for HTML on iOS. Single font size variants only.
+
+[^FiraSans-full]: cannot be installed on iOS: too big (17.5MB)
+
+[^FiraSans]: all "FiraSansCondensed" variants are not included.
 
 # Tests #
 
