@@ -15,31 +15,45 @@ The fonts included here are free to use. Read their respective license by follow
 
 The following fonts are downloaded and put in `/fonts/`:
 
-- [The Latin Modern (LM) Family of Fonts --- GUST](http://www.gust.org.pl/projects/e-foundry/latin-modern)
-- [Computer Modern Unicode fonts](http://cm-unicode.sourceforge.net/download.html)
-- [Charter --- Butterick’s Practical Typography](http://practicaltypography.com/charter.html)  
-- [ickc/et-book: A webfont of the typeface used in Edward Tufte’s books.](https://github.com/ickc/et-book)  
-- [mozilla/Fira: Mozilla's new typeface, used in Firefox OS](https://github.com/mozilla/Fira)
-- [adobe-fonts/source-code-pro: Monospaced font family for user interface and coding environments](https://github.com/adobe-fonts/source-code-pro)
-- [Noto Sans CJK – Google Noto Fonts](https://www.google.com/get/noto/help/cjk/) [^NotoSans]
+- TeX Fonts:
+	- [The Latin Modern (LM) Family of Fonts --- GUST](http://www.gust.org.pl/projects/e-foundry/latin-modern)
+	- [Computer Modern Unicode fonts](http://cm-unicode.sourceforge.net/download.html)
+- English Fonts:
+	- [Charter --- Butterick’s Practical Typography](http://practicaltypography.com/charter.html)  
+	- [ickc/et-book: A webfont of the typeface used in Edward Tufte’s books.](https://github.com/ickc/et-book)  
+	- [mozilla/Fira: Mozilla's new typeface, used in Firefox OS](https://github.com/mozilla/Fira)
+	- [adobe-fonts/source-code-pro: Monospaced font family for user interface and coding environments](https://github.com/adobe-fonts/source-code-pro)
+- Chinese Fonts:
+	- [Noto Sans CJK – Google Noto Fonts](https://www.google.com/get/noto/help/cjk/) [^NotoSans]
+	- [SetoFont](http://en.justfont.com/fontdetail/147)
 
 [^NotoSans]: Due to size constraints, the fonts is not put here. See [noto-cjk/NotoSans-region-otf at master · ickc/noto-cjk](https://github.com/ickc/noto-cjk/tree/master/NotoSans-region-otf).
+
+## Todo ##
+
+- [cwtex](https://github.com/l10n-tw/cwtex-q-fonts-TTFs)
+- [HanWang Zhuyin ruby fonts](http://www.fysh.tc.edu.tw/download/index.php?dir=font/王漢宗48套字型(free)/)
+- [Hanazono fonts](http://fonts.jp/hanazono/) is too big since the iOS mobile config has a file size limit.
 
 # Mobile Config #
 
 Open these links in Mobile Safari:
 
-- Latin Modern
-	- [Latin Modern (full)](mobileconfig/lmodern-full.mobileconfig) [^lmodern-full]
-	- [Latin Modern (10pt only)](mobileconfig/lmodern10.mobileconfig) [^lmodern10]
-- [Computer Modern Unicode](mobileconfig/cmunicode.mobileconfig)
-- [Charter](mobileconfig/charter.mobileconfig)
-- [ET-Books](mobileconfig/etbembo.mobileconfig)
-- Fira Sans
-	- [Fira Sans (full)](mobileconfig/FiraSans-full.mobileconfig) [^FiraSans-full]
-	- [Fira Sans (without "FiraSansCondensed" variants)](mobileconfig/FiraSans.mobileconfig) [^FiraSans]
-- [Source Code Pro](mobileconfig/SourceCodePro.mobileconfig)
-- [Noto Sans TC](mobileconfig/NotoSansTC.mobileconfig) [^NotoSansTC]
+- TeX Fonts:
+	- Latin Modern
+		- [Latin Modern (full)](mobileconfig/lmodern-full.mobileconfig) [^lmodern-full]
+		- [Latin Modern (10pt only)](mobileconfig/lmodern10.mobileconfig) [^lmodern10]
+	- [Computer Modern Unicode](mobileconfig/cmunicode.mobileconfig)
+- English Fonts:
+	- [Charter](mobileconfig/charter.mobileconfig)
+	- [ET-Books](mobileconfig/etbembo.mobileconfig)
+	- Fira Sans
+		- [Fira Sans (full)](mobileconfig/FiraSans-full.mobileconfig) [^FiraSans-full]
+		- [Fira Sans (without "FiraSansCondensed" variants)](mobileconfig/FiraSans.mobileconfig) [^FiraSans]
+	- [Source Code Pro](mobileconfig/SourceCodePro.mobileconfig)
+- Chinese Fonts:
+	- [Noto Sans TC](mobileconfig/NotoSansTC.mobileconfig) [^NotoSansTC]
+	- [SetoFont](mobileconfig/SetoFont.mobileconfig)
 
 [^lmodern-full]: Best for Word/Pages/etc on iOS when you want to choose the exact font variants. Cause problems when used in HTML in iOS, probably because of all the different font sizes.
 
