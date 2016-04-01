@@ -21,6 +21,9 @@ The following fonts are downloaded and put in `/fonts/`:
 - [ickc/et-book: A webfont of the typeface used in Edward Tufte’s books.](https://github.com/ickc/et-book)  
 - [mozilla/Fira: Mozilla's new typeface, used in Firefox OS](https://github.com/mozilla/Fira)
 - [adobe-fonts/source-code-pro: Monospaced font family for user interface and coding environments](https://github.com/adobe-fonts/source-code-pro)
+- [Noto Sans CJK – Google Noto Fonts](https://www.google.com/get/noto/help/cjk/) [^NotoSans]
+
+[^NotoSans]: Due to size constraints, the fonts is not put here. See [noto-cjk/NotoSans-region-otf at master · ickc/noto-cjk](https://github.com/ickc/noto-cjk/tree/master/NotoSans-region-otf).
 
 # Mobile Config #
 
@@ -36,6 +39,7 @@ Open these links in Mobile Safari:
 	- [Fira Sans (full)](mobileconfig/FiraSans-full.mobileconfig) [^FiraSans-full]
 	- [Fira Sans (without "FiraSansCondensed" variants)](mobileconfig/FiraSans.mobileconfig) [^FiraSans]
 - [Source Code Pro](mobileconfig/SourceCodePro.mobileconfig)
+- [Noto Sans TC](mobileconfig/NotoSansTC.mobileconfig) [^NotoSansTC]
 
 [^lmodern-full]: Best for Word/Pages/etc on iOS when you want to choose the exact font variants. Cause problems when used in HTML in iOS, probably because of all the different font sizes.
 
@@ -44,6 +48,8 @@ Open these links in Mobile Safari:
 [^FiraSans-full]: cannot be installed on iOS: too big (17.5MB)
 
 [^FiraSans]: all "FiraSansCondensed" variants are not included.
+
+[^NotoSansTC]: only Noto Sans TC with normal and bold weights are included due to size constraints
 
 # Tests #
 
