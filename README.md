@@ -26,13 +26,18 @@ The following fonts are downloaded and put in `/fonts/`:
 
 Open these links in Mobile Safari:
 
-- [Latin Modern (full)](mobileconfig/lmodern-full.mobileconfig) [^ Best for Word/Pages/etc on iOS when you want to choose the exact font variants. Cause problems when used in HTML in iOS, probably because of all the different font sizes.]
-- [Latin Modern (10pt only)](mobileconfig/lmodern10.mobileconfig) [^ Best for HTML on iOS. Single font size variants only]
+- Latin Modern
+	- [Latin Modern (full)](mobileconfig/lmodern-full.mobileconfig) [^lmodern-full]
+	- [Latin Modern (10pt only)](mobileconfig/lmodern10.mobileconfig) [^lmodern10]
 - [Computer Modern Unicode](mobileconfig/cmunicode.mobileconfig)
 - [Charter](mobileconfig/charter.mobileconfig)
 - [ET-Books](mobileconfig/etbembo.mobileconfig)
 - [Fira Sans](mobileconfig/FiraSans.mobileconfig)
 - [Source Code Pro](mobileconfig/SourceCodePro.mobileconfig)
+
+[^lmodern-full]: Best for Word/Pages/etc on iOS when you want to choose the exact font variants. Cause problems when used in HTML in iOS, probably because of all the different font sizes.
+
+[^lmodern10]: Best for HTML on iOS. Single font size variants only.
 
 # Tests #
 
