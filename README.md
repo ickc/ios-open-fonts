@@ -31,9 +31,17 @@ The following fonts are downloaded and put in `/fonts/`:
 
 ## Todo ##
 
-- [cwtex](https://github.com/l10n-tw/cwtex-q-fonts-TTFs)
-- [HanWang Zhuyin ruby fonts](http://www.fysh.tc.edu.tw/download/index.php?dir=font/王漢宗48套字型(free)/)
-- [Hanazono fonts](http://fonts.jp/hanazono/) is too big since the iOS mobile config has a file size limit.
+- Chinese
+	- [cwtex](https://github.com/l10n-tw/cwtex-q-fonts-TTFs)
+	- [HanWang Zhuyin ruby fonts](http://www.fysh.tc.edu.tw/download/index.php?dir=font/王漢宗48套字型(free)/)
+	- [Hanazono fonts](http://fonts.jp/hanazono/) is too big since the iOS mobile config has a file size limit.
+- Hebrew
+	- [Fonts for Scholars: the Cardo Font](http://scholarsfonts.net/cardofnt.html)
+- Greek
+	- [Download - Gentium](http://software.sil.org/gentium/download/)
+	- [Download - Charis SIL](http://software.sil.org/charis/download/)
+	- [Download - Doulos SIL](http://software.sil.org/doulos/download/)
+
 
 # Mobile Config #
 
