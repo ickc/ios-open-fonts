@@ -31,6 +31,8 @@ The following fonts are downloaded and put in `/fonts/`:
 
 ## Todo ##
 
+- English
+	- [XCharter---extension of Charter](https://www.ctan.org/pkg/xcharter?lang=en)
 - Chinese
 	- [cwtex](https://github.com/l10n-tw/cwtex-q-fonts-TTFs)
 	- [HanWang Zhuyin ruby fonts](http://www.fysh.tc.edu.tw/download/index.php?dir=font/王漢宗48套字型(free)/)
