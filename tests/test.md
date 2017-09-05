@@ -1,6 +1,6 @@
 ---
 HTML Header:	<script type="text/x-mathjax-config">MathJax.Ajax.config.path.Contrib="https://cdn.mathjax.org/mathjax/contrib",MathJax.Hub.Register.StartupHook("TeX Jax Ready",function(){MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{cancel:["Extension","cancel"],bcancel:["Extension","cancel"],xcancel:["Extension","cancel"],cancelto:["Extension","cancel"]})}),MathJax.Hub.Config({TeX:{equationNumbers:{autoNumber:"AMS"},extensions:["[Contrib]/physics/physics.js","[Contrib]/siunitx/siunitx.js"]}});</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full"></script>
-CSS:	https://ickc.github.io/multimarkdown-latex-css/css/multimarkdown-latex-sourcecodepro.css
+CSS:	https://ickc.github.io/markdown-latex-css/css/markdown-latex-sourcecodepro.css
 HTML Header Level:	1
 LaTeX Header Level:	1
 LaTeX Input:	mmd-article-header
